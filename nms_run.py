@@ -39,4 +39,3 @@ for (imagePath, boundingBoxes) in images:
 	# write the images to file
 	cv2.imwrite(imagePath.split('/')[0] + "/after_NMS" + imagePath.split('/')[1] , image)
 	cv2.imwrite(imagePath.split('/')[0] + "/original_boxes" + imagePath.split('/')[1] , orig)
-	cv2.waitKey(0)
